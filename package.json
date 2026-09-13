@@ -1,0 +1,12 @@
+{
+  "name": "com.jiwon.gamekit",
+  "version": "0.1.0",
+  "displayName": "GameKit",
+  "description": "모바일 게임 공통 기반: MonoSingleton, EventManager, TableManager(JSON), DataManager(저장/로드), UIManager, PoolManager, Scheduler, IClock/IRandom, BigNumber, Logger.",
+  "unity": "6000.0",
+  "author": { "name": "jiwon" },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.2"
+  },
+  "keywords": [ "gamekit", "singleton", "event", "table", "save", "ui", "pool" ]
+}
