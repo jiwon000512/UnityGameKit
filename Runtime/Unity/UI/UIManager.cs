@@ -45,7 +45,7 @@ namespace GameKit.UI
             }
         }
 
-        private T GetView<T>() where T : UIView
+        public T GetView<T>() where T : UIView
         {
             if (!m_views.TryGetValue(typeof(T), out UIView view))
             {
